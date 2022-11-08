@@ -30,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  position: relative;
 }
 
 h1 {
@@ -96,4 +97,9 @@ button:focus-visible {
   }
 }
 
-#map { height: 1000px; width: 1000px; }
+#map{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
